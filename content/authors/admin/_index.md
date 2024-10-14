@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Evitta Telson
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Evitta
+last_name: Telson
 
 # Status emoji
 status:
@@ -17,83 +17,54 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: B.Tech Student in Artificial Intelligence & Data Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Rajagiri School of Engineering and Technology 
+    url: https://www.rajagiritech.ac.in/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:u2108021@rajagiri.edu.in'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/EVITTATELSON
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/evittatelson
   - icon: brands/instagram
     url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: B.Tech Artificial Intelligence and Data Science 
+    institution: Rajagiri School of Engineering and Technology
+    date_start: 2021-01-01
+    date_end: 2025-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Current CGPA: 9.26 (Percentage: 88.06%)
+  
+  - area: Senior Secondary School (12th Grade)
+    institution: St Kuriakose Public School
+    date_start: 2020-01-01 
+    date_end: 2021-12-31
     summary: |
-      GPA: 3.8/4.0
+      Secured 95.1%
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: ML Intern 
+    company_name: Nest Digital
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-03-01
+    date_end: 2023-04-30
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Data preprocessing for machine learning models
+      - Exposure to real-world machine learning projects
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -104,14 +75,14 @@ skills:
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
+      - name: SQL
         description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
+        percent: 65
+        icon: devicon/mysql
+      - name: Excel
         description: ''
         percent: 40
-        icon: devicon/pytorch
+        icon: devicon/MicrosoftExcel
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -132,41 +103,30 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Hindi
+    percent: 70
+  - name: Malayalam
+    percent: 60
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+  - title: NPTEL Deep Learning
+    url: https://nptel.ac.in/ 
     date: '2023-11-25'
+    awarder: NPTEL
+    icon: NPTEL
+    summary: |
+      I completed the NPTEL Deep Learning course, where I learned about key components of deep learning, such as feedforward, convolutional, and recurrent neural networks, along with attention mechanisms. I also explored optimization techniques like Gradient Descent, Adam, and RMSProp for training deep networks, gaining insight into solving complex vision and NLP tasks
+  - title: Google Data Analytics (Ongoing)
+    url: https://www.coursera.org/professional-certificates/google-data-analytics 
+    date: '2023-09-01'
     awarder: Coursera
-    icon: coursera
+    icon: Coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+       I learned how to use tools like SQL, Excel, and R to gather, clean, and analyze data. The course covered creating data visualizations, understanding key data analysis concepts, and generating actionable insights. Additionally, I gained practical experience with real-world projects and datasets, helping me develop the skills needed to work as a data analyst.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently pursuing a B.Tech in Artificial Intelligence and Data Science with hands-on experience in data preprocessing, machine learning, and data visualization. I recently completed an internship at Nest Digital, focusing on machine learning and real-world data applications.
